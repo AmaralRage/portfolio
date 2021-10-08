@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/projects/original/9737ba107812099.Y3JvcCwxMzgwLDEwODAsMjcwLDA.gif");
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  background: #dcdcdc;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 12px 10px #e026bc;
+  box-shadow: 1px 1px 12px 10px #e026bc;
+  padding: 64px;
+  opacity: 0.9;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #d3d3d3;
+  border-radius: 100px;
+  border: 2px solid #e026bc;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding: 32px;
+  -webkit-box-shadow: 1px 1px 12px 10px #e026bc;
+  box-shadow: 1px 1px 12px 10px #e026bc;
+  border-radius: 20px;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.projetos-item a {
+  color: #1c1c1c1;
+  text-decoration: none;
+}
+
+.redesSociais__lista {
+  align-self: flex-end;
+  list-style-type: none;
+}
+
+.redesSociais__lista__item {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.icon {
+  height: 25px;
+  margin-left: 10px;
+}
+
+.dark {
+  background-image: url("http://33.media.tumblr.com/4045aaa050f8213d1430cfc33f63dffa/tumblr_mk3lw6Ni0q1r1jv26o1_500.gif");
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+  -webkit-box-shadow: 1px 1px 12px 10px #811a82;
+  box-shadow: 1px 1px 12px 10px #811a82;
+  opacity: 0.95;
+}
+
+.dark .projetos {
+  color: white;
+  -webkit-box-shadow: 1px 1px 12px 10px #811a82;
+  box-shadow: 1px 1px 12px 10px #811a82;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: white;
+  border: 2px solid #811a82;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dark .perfil-foto {
+  content: url("https://i.imgur.com/6YMUXm4.jpg");
+  border-radius: 460px;
+}
+
+.dark h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dark h3 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
